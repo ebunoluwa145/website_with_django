@@ -1,0 +1,91 @@
+{% extends 'portapp/base.html' %}
+
+{% block content %}
+<h1> <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      h1{
+        text-align: center;
+      }
+      .card{
+        box-shadow: 0 4px 8px 0
+        rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 35%;
+        height: 280px;
+        text-align: justify;
+      }
+      .card:hover {
+        box-shadow: 0 8px 16px 0
+        rgba(0,0,0,0.2);
+      }
+      .one{
+        float: right;
+        padding: 2px 16px;
+        margin-right: 50px;
+      }
+      .two{
+        float:left;
+        padding: 10px 16px;
+        margin-top: 31%;
+        margin-left: 50px;
+
+      }
+      .three{
+        padding: 2px 10px;
+        margin-right: 50px;
+        float: right;
+        margin-top: 35%;
+        margin-bottom: 30px;
+      }
+      .two .container{
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <h1>About</h1>
+    
+    <div class="card one">
+      <div class="container">
+        <h4><b>Our Story</b></h4>
+        <p>This website is just to introduce ourselves(the devs), we would
+          do better and blow minds with our ideas. What we are building
+          at the moment is a website to help students all over the world.
+          Initially it was meant for just two universities but along the
+          line we saw it is more than what we thought and now not just
+          for students but for everyone. You are wondering what it is that
+          we are building? Just keep in touch, it would be ready soon, we
+          promise it would be mind-blowing and help everyone all over the world.
+          Check our portfolio to see about us.
+        </p>
+      </div>
+    </div>
+    <div class="card two">
+      <div class="container">
+        <h4><b>Our Vision</b></h4>
+        <p>We are as a medium to connect you to buyers and sellers of a product,
+           here commercial activity can be conducted via our platform.
+        </p>
+      </div>
+    </div>
+    <div class="card three">
+      <div class="container">
+        <h4><b>Our Mission</b></h4>
+        <p>Making commerce better for everyone.<br>
+          We help people accomplish competence by making it easierto start, run,
+           and grow a business, so we are reducing barriers to business ownership
+           to make commerce better for everyone.<br>
+           We would make spendings at it minima, we would make negotiations easier
+           and we would have business owners and everyone with a platform that makes life easier.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+ 
+{% endblock content %}
